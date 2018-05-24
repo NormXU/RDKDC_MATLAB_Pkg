@@ -1,0 +1,11 @@
+# no .a files abd no .o files
+*.[oa]
+
+# but track lib.a, even we ignore all .a files
+!lib.a
+
+# ignore all pdf files
+*.pdf
+
+# ignore all ~ initial files
+*.~
